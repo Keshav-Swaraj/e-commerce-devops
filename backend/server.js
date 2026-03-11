@@ -35,7 +35,7 @@ app.use("/api/payments", paymentRoutes);
 app.use("/api/analytics", analyticsRoutes);
 
 app.listen(PORT, () => {
-    console.log("server is running on http://localhost", PORT);
+    console.log("server is now running on http://localhost", PORT);
 
     connectDB();
 })
